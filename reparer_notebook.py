@@ -1,6 +1,6 @@
 import json
 
-filename = "2_merging_cleaning_vital_signs_and_ioa_file_22pel.ipynb"
+filename = "2_merging_cleaning_vital_signs_and_ioa_file.ipynb"
 print(f"⏳ Lecture du fichier {filename}...")
 
 try:

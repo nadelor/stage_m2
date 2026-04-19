@@ -14,18 +14,25 @@ from datetime import datetime
 # ==============================================================================
 
 NOTEBOOKS = [
-    "1_code_find_and_merge_xl.ipynb",
-    "2_merging_cleaning_vital_signs_and_ioa_file_22pel.ipynb",
-    "3_merging_ioaparamfile_med_adm.ipynb",
-    "4_radio_cleaning_and_merge_pel22.ipynb",
-    "5_bio_cleaning_and_merge_pel22.ipynb",
-    "6_full_df_tabular_cleaning_harmonization._imputation.ipynb",
-    "7_descriptive_analysis.ipynb",
-    "8_regular_clustering_full dataset.ipynb",
-    "8bis_regular_clustering_split_dataset.ipynb",
-    "9_clusters_and_outliers_description.ipynb",
-    "10_clustering_encoder_embeddings.ipynb",
-    "11. BERTopic.ipynb"
+    #"1_code_find_and_merge_xl.ipynb",
+    # "2_merging_cleaning_vital_signs_and_ioa_file.ipynb",
+    # "3_merging_ioaparamfile_med_adm.ipynb",
+    # "4_radio_cleaning_and_merge.ipynb",
+    # "5_bio_cleaning_and_merge.ipynb",
+    # "6a_compare_hospit_uhcd_2022.ipynb",
+    #"6b_full_df_tabular_cleaning_harmonization._imputation.ipynb",
+    #"7_descriptive_analysis.ipynb",
+    #"8_correlation_hospit_vs_conso.ipynb",
+    "clustering_pipeline.ipynb",
+    "clustering_pipeline_split_dataset.ipynb",
+    #"9_regular_clustering_full dataset.ipynb", # voir pour effacer
+    #"9_regular_clustering_full dataset_minmaxscaler.ipynb", # voir pour effacer
+    #"9bis_regular_clustering_split_dataset.ipynb",
+    #"9ter_ regular_clustering_full_dataset_without_counts.ipynb" # a corriger celui ci
+    "10_clusters_and_outliers_description.ipynb",
+    "10bis_decision_trees.ipynb",
+    "11_clustering_encoder_embeddings.ipynb",
+    "12. BERTopic.ipynb"
 ]
 
 LOG_FILE = f"pipeline_run_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
